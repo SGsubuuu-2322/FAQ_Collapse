@@ -24,6 +24,7 @@ h1 {
   margin: 0 auto;
 }
 
+/* This is for each and every FAQ child container... */
 .faq {
   background-color: transparent;
   border: 1px solid gray;
@@ -35,11 +36,15 @@ h1 {
   transition: all 0.5s ease;
 }
 
+/* This is for active FAQ container... */
 .faq.active {
   background-color: #fff;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1), 0px 3px 6px rgba(0, 0, 0, 0.1);
 }
 
+
+/* This is for creating two font awesome icons on FAQ container when it is active */
+/* It is done through before and after pseudo selectors... */
 .faq.active::before,
 .faq.active::after {
   content: "\f075";
@@ -60,14 +65,18 @@ h1 {
   transform: rotateY(180deg);
 }
 
+
+/* This is for FAQ title question */
 .faq-title {
   margin: 0px 35px 0px 0px;
 }
 
+/* And this is for FAQ answer... */
 .faq-text {
   display: none;
   margin: 35px 0 0;
 }
+
 
 .faq.active .faq-text {
   display: block;
