@@ -71,17 +71,18 @@ h1 {
   margin: 0px 35px 0px 0px;
 }
 
-/* And this is for FAQ answer... */
+/* And this is for FAQ answer, it normally is invisible when unclicked... */
 .faq-text {
   display: none;
   margin: 35px 0 0;
 }
 
-
+/* This is for FAQ answer, it will get visible when clicked  */
 .faq.active .faq-text {
   display: block;
 }
 
+/* This is for FAQ toggle buttons... */
 .faq-toggle {
   background-color: transparent;
   border: 0;
@@ -103,6 +104,7 @@ h1 {
   outline: 0;
 }
 
+/* This is for icon toggling among each other when clicked */
 .faq-toggle .fa-times {
   display: none;
 }
