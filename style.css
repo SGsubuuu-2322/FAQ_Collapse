@@ -1,3 +1,6 @@
+/* This is the styling sheet for this project written using CSS3 technology... */
+
+/* This is some general stylings for the whole project... */
 @import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 
 * {
@@ -9,11 +12,13 @@ body {
   background-color: #f0f0f0;
 }
 
+/* This is for title */
 h1 {
   margin: 50px 0 30px;
   text-align: center;
 }
 
+/* This is for Parent container holding the whole project... */
 .faq-container {
   max-width: 600px;
   margin: 0 auto;
